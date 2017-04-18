@@ -1,7 +1,7 @@
 apt-get install git maven
 
 echo "Neo4j 2.3.10\n";
-curl -s -O http://dist.neo4j.org/neo4j-community-2.3.10-unix.tar.gz
+wget -q -O neo4j-community-2.3.10-unix.tar.gz http://dist.neo4j.org/neo4j-community-2.3.10-unix.tar.gz
 tar zxf neo4j-community-2.3.10-unix.tar.gz
 mv neo4j-community-2.3.10 neo4j
 sed -i.bak s/dbms\.security\.auth_enabled=true/dbms\.security\.auth_enabled=false/ neo4j/conf/neo4j-server.properties
