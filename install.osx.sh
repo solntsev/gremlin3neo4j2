@@ -1,5 +1,3 @@
-# check for java 8
-
 brew install git maven
 
 echo "Neo4j 2.3.10\n";

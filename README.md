@@ -11,9 +11,10 @@ This scripts works on OSX, at the moment.
 ## Execution
 
   ``` sh
-	$ curl -sL https://raw.github.com/exakat/gremlin3neo4j | sh
+	$ curl -sL https://raw.githubusercontent.com/exakat/gremlin3neo4j2/master/install.osx.sh | sh
   ```
   
+For added security, you may download the script, review it and then run it.   
     
 ## Pre-requisite
 
@@ -24,5 +25,5 @@ For OSX :
 * [curl](https://curl.haxx.se/)
 
 
-## Support for other plate-forms
+## Support for other platforms
 This repository aims at offering the install scripts for various plate-forms. If yours is missing, read the current scripts and see what must be adapted. Then, provide it as PR. 
