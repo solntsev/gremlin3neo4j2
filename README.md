@@ -4,7 +4,7 @@ This is a curl / bash installer for Gremlin 3.2.0 on Neo4j.
 
 ## Features
 
-This script installs Gremlin 3.2.0-incubating and Neo4j 2.3.10, in the local repository, in the folder 'neo4j'.   Gremlin is installed as a plug-in.
+This script installs Gremlin 3.2.0-incubating and Neo4j 2.3.11, in the local repository, in the folder 'neo4j'.   Gremlin is installed as a plug-in.
 
 This scripts works on Debian and OSX.
 
